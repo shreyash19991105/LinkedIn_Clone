@@ -1,0 +1,23 @@
+.postupdate-cont{
+    width: 70%;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+   
+    .cont1{
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+       
+    }
+    .cont2{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        
+    }
+}

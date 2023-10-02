@@ -1,0 +1,50 @@
+.topbar-cont{
+    width: 100vw;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1rem;
+    
+    .logo-cont{
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-evenly;
+        .linkedinlogo{
+            height:3rem;
+            width:3rem;
+
+        }
+    }
+    
+    .icons-cont{
+        display: flex;
+        justify-content: space-evenly;
+        gap:1rem;
+        flex-grow: 7;
+        .reacticons{
+            height: 2rem;
+            width: 1.5rem;
+            cursor: pointer;
+            color:#5e5e5e;
+        }
+        .reacticons:hover{
+            color: black;
+        }
+    
+    }
+    
+    .user-logo-cont{
+        flex-grow: 2;
+        display: flex;
+        justify-content: space-evenly;
+        .userlogo{
+            height:2.5rem;
+            cursor: pointer;
+            width:2.5rem;
+        }
+    }
+    
+    
+}
